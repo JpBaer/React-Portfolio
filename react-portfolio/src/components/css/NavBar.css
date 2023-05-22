@@ -12,6 +12,12 @@ nav.navbar{
     color: var(--offwhite) !important;
 }
 
+.navbar .navbar.toggler{
+   color:var(--offwhite) !important;
+}
+
+
+
 .scrolled{
     background-color: var(--darkblue);
 }
