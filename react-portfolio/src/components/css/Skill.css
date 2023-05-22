@@ -1,0 +1,41 @@
+.Skill{
+    color: var(--offwhite);
+    border: solid 1px var(--offwhite);
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #18113948;
+}
+
+.Skill img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -10%;
+    right: -50%;
+}
+
+.Javascript{
+    background: linear-gradient(to bottom left, rgba(255, 242, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+.React{
+    background: linear-gradient(to bottom left, rgba(0, 187, 255, 0.2), rgba(255, 255, 255, 0));
+}
+
+.Node{
+    background: linear-gradient(to bottom left, rgba(17, 255, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+.GraphQl{
+    background: linear-gradient(to bottom left, rgba(255, 0, 144, 0.2), rgba(255, 255, 255, 0));
+}
+
+.MongoDb{
+    background: linear-gradient(to bottom left,rgba(17, 255, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+.Python{
+    background: linear-gradient(to bottom left, rgba(255, 242, 0, 0.2), rgba(255, 255, 255, 0));
+}

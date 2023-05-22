@@ -1,0 +1,39 @@
+.ProjectsPage{
+    height:100vh;
+    width: 100%;
+    /* background: linear-gradient(to bottom right, #e4a2a28b,var(--darkblue)); */
+    background-color: var(--offwhite);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.projectTitle {
+    background: linear-gradient(90deg, var(--purple),var(--peach));
+    font-size: 40px;
+    position: relative;
+    margin: 40px;
+    /* top:-100%;
+    left: 100%;
+    min-width: 40%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    top:50%;
+}
+
+.ProjectsPage p{
+    color: var(--darkblue);
+    background-color: --var(--peach);
+}
+
+
+
