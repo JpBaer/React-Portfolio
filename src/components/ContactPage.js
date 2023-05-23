@@ -2,6 +2,7 @@ import React from 'react'
 import './css/ContactPage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Fade from 'react-reveal/Fade'
 
 
 const ContactPage = () => {
@@ -11,8 +12,9 @@ const ContactPage = () => {
         <h2>Contact Me</h2>
         <p>If you're interested in working together send a message in the contact form below.</p>
       </div>
-
+    <Fade bottom>
     <div className = "contactContainer">
+      {/* <Fade left> */}
       <div className = "contactInfo">
 
         <div className = "contactBox">
@@ -42,7 +44,7 @@ const ContactPage = () => {
 
         
       </div>
-
+      {/* </Fade> */}
       <div className = "contactForm">
         <form>
 
@@ -72,6 +74,7 @@ const ContactPage = () => {
       </div>
 
     </div>
+    </Fade>
     </div>
   )
 }
