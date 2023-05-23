@@ -19,7 +19,7 @@ const HeroPage = () => {
         <div className='heroTextContainer'>
             <h1 className='heroTitle'>Jorgen Baertsch</h1>
             <h1 className='heroTitle'>Full Stack Software Engineer</h1>
-            <p className ='heroText'>When I get passionate about something I go all in, and when I have a question I always seek an answer.  As someone with a degree and work experience as an Aerospace Engineer and a self-taught Musician/Audio Engineer I have found web development to be the perfect blend of technical and creative.  I have a focus on Javascript and the MERN stack and a love for the backend but am always open to exploring new technologies. </p>
+            <p className ='heroText'>When I get passionate about something I go all in, and when I have a question I always seek an answer.  As someone with a degree and work experience as an Aerospace Engineer and as a self-taught Musician and Audio Engineer I have found web development to be the perfect blend of technical and creative.  I have a focus on Javascript and the MERN stack and a love for the backend but am always open to exploring new technologies. </p>
            
         </div>
         {/* <div className = "animation">
