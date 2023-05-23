@@ -50,6 +50,11 @@ span.nav-text{
  
 }
 
+.active{
+    text-shadow: 2px 2px 8px var(--peach);
+    font-size: 17px;
+}
+
 .nav-logo{
     height: 100px;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './css/Skill.css'
 import JSLogo from '../assets/logos/javascript.svg'
 import ReactLogo from '../assets/logos/react.svg'
@@ -8,15 +8,33 @@ import MongoDbLogo from '../assets/logos/mongodb_compass_macos_bigsur_icon_18993
 import pythonLogo from '../assets/logos/python-svgrepo-com.svg'
 
 const Skill = (props) => {
-    const logos = [JSLogo, ReactLogo, NodeLogo, GraphQlLogo, MongoDbLogo, pythonLogo];
-   const {Text, Logo, Style} = props
-  return (
-    // <div className = {`Skill ${Style}`}>
-    <div className = {`Skill`}>
-        <img src = {logos[Logo]}/>
-        <p>{Text}</p>
-    </div>
-  )
-}
+  const [isHovered, setIsHovered] = useState(false);
+  const logos = [JSLogo, ReactLogo, NodeLogo, GraphQlLogo, MongoDbLogo, pythonLogo];
 
-export default Skill
+  const { Text, Logo, Style } = props;
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  return (
+    <div
+      className={`Skill ${isHovered ? Style : ''}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <img src={logos[Logo]} alt="Skill Logo" />
+      <div className = "skillText">
+      <h6>{Style}</h6>
+      <hr></hr>
+      <p>{Text}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Skill;

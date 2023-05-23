@@ -12,6 +12,7 @@ import resume from '../assets/resume.pdf'
 
 function NavBar() {
     const [scrolled, setScrolled] = useState(false);
+    const [activeLink, setActiveLink] = useState('home');
 
     useEffect(()=> {
         const onScroll = ()=> {
@@ -26,6 +27,18 @@ function NavBar() {
         return () => window.removeEventListener("scroll",onScroll);
     },[])
 
+const onUpdateActiveLink = (value) => {
+      console.log('Active Link Triggered')
+      console.log(value)
+      // if(value === 'home'){
+      //   setActiveLink(null)
+      // }
+      // else{
+      setActiveLink(value);
+      // }
+      console.log(activeLink)
+}
+
   const style = {
     height: 110,
     width: 110,
@@ -35,14 +48,16 @@ function NavBar() {
     <Navbar expand="lg" className = {scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#Hero">
-         <Lottie animationData = {navAnimation} style = {style}/> 
+          
+         <Lottie animationData = {navAnimation} style = {style} className = {activeLink ==='home' ? 'active' : ''} onClick={()=> onUpdateActiveLink('home')}/> 
+         
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Skills" className ="navLink">Skills</Nav.Link>
-            <Nav.Link href="#Projects" className ="navLink">Projects</Nav.Link>
-            <Nav.Link href="#Contact" className ="navLink">Contact</Nav.Link>
+            <Nav.Link href="#Skills" className = {activeLink ==='skills' ? 'active navLink' : 'navLink'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#Projects" className = {activeLink ==='projects' ? 'active navLink' : 'navLink'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="#Contact" className = {activeLink ==='contact' ? 'active navLink' : 'navLink'} onClick={()=> onUpdateActiveLink('contact')}>Contact</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

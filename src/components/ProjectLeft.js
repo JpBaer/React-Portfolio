@@ -3,6 +3,7 @@ import '../components/css/ProjectLeft.css'
 import JamSessionPic from '../assets/JamSession/JamSessionWebImage.png'
 import BlockPartyPic from '../assets/HousingProject/BlockPartyWebImage.png'
 import PokedexPic from '../assets/Pokedex/PokedexWebImage.png'
+import Fade from 'react-reveal/Fade'
 
 const ProjectLeft = (props) => {
     const {name, description, skills,photo, link} = props
@@ -11,9 +12,12 @@ const ProjectLeft = (props) => {
     <div className='ProjectLeft'>
 
         <div className = 'projectRow'>
+        <Fade left>
         <div className = "LeftImage">
         <img src = {photos[photo]} alt = "Jam Session Website"/>
         </div>
+        </Fade>
+        <Fade right>
         <div className = "ProjectTextLeft">
         <h4>{name}</h4>
         <p>{description}</p>
@@ -23,7 +27,9 @@ const ProjectLeft = (props) => {
         {/* <h6>Learn More</h6> */}
         </div>
         
+        
         </div>
+        </Fade>
         </div>
     </div>
   )

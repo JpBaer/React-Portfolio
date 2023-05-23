@@ -6,6 +6,7 @@ import ProjectLeft
 from './ProjectLeft'
 import ProjectRight from './ProjectRight'
 import JamSessionPic from '../assets/JamSession/JamSessionWebImage.png'
+import Fade from 'react-reveal/Fade'
 
 const ProjectsPage = () => {
 
@@ -18,7 +19,7 @@ const ProjectsPage = () => {
   },
   {
     name: "React Pokedex",
-    description: "A pokedex built in React that connects to the Pokemon API and displays all 1000+ pokemon with each card being color-coded based on type.  CLicking on a card produces a modal with unique information provided for each pokemon.  Users can search for a specific pokemon and the app implements an infinite scroll feature to dynamically render content.",
+    description: "A pokedex built in React that connects to the Pokemon API and displays all 1000+ pokemon with each card being color-coded based on type.  Clicking on a card produces a modal with unique information provided for each pokemon.  Users can search for a specific pokemon and the app implements an infinite scroll feature to dynamically render content.",
     skills: "React, JavaScript, CSS",
     photo: 2,
     link: ''
