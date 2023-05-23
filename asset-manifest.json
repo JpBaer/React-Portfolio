@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.d00ba091.css",
-    "main.js": "/static/js/main.2fb1c688.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/image.png": "/static/media/image.406f675dcfbfd3e68ee3.png",
-    "static/media/PokedexWebImage.png": "/static/media/PokedexWebImage.ee56c0b76530a58b143d.png",
-    "static/media/BlockPartyWebImage.png": "/static/media/BlockPartyWebImage.b04b5c18dcfee7485f75.png",
-    "static/media/pexels-isaac-garcia-9567598.jpg": "/static/media/pexels-isaac-garcia-9567598.1f6d6c86b1a594c5c046.jpg",
-    "static/media/JamSessionWebImage.png": "/static/media/JamSessionWebImage.b2d7a4e4a3eaac9f1d85.png",
-    "static/media/resume.pdf": "/static/media/resume.acc63cdf4cb333628770.pdf",
-    "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
-    "static/media/mongodb_compass_macos_bigsur_icon_189933.png": "/static/media/mongodb_compass_macos_bigsur_icon_189933.0f30b4d8d396109e5c54.png",
-    "static/media/graphql.svg": "/static/media/graphql.09cf7be320be4dc145cdcff83f407a10.svg",
-    "static/media/react.svg": "/static/media/react.0f2dd326432f743247dc7c1389f9c032.svg",
-    "static/media/python-svgrepo-com.svg": "/static/media/python-svgrepo-com.62e8a4442709e711eb8c89041804c775.svg",
-    "static/media/javascript.svg": "/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
-    "index.html": "/index.html",
-    "main.d00ba091.css.map": "/static/css/main.d00ba091.css.map",
-    "main.2fb1c688.js.map": "/static/js/main.2fb1c688.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.a9397c2d.css",
+    "main.js": "/React-Portfolio/static/js/main.c955b593.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/image.png": "/React-Portfolio/static/media/image.406f675dcfbfd3e68ee3.png",
+    "static/media/PokedexWebImage.png": "/React-Portfolio/static/media/PokedexWebImage.ee56c0b76530a58b143d.png",
+    "static/media/BlockPartyWebImage.png": "/React-Portfolio/static/media/BlockPartyWebImage.b04b5c18dcfee7485f75.png",
+    "static/media/pexels-isaac-garcia-9567598.jpg": "/React-Portfolio/static/media/pexels-isaac-garcia-9567598.1f6d6c86b1a594c5c046.jpg",
+    "static/media/JamSessionWebImage.png": "/React-Portfolio/static/media/JamSessionWebImage.b2d7a4e4a3eaac9f1d85.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.acc63cdf4cb333628770.pdf",
+    "static/media/node-js.png": "/React-Portfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/mongodb_compass_macos_bigsur_icon_189933.png": "/React-Portfolio/static/media/mongodb_compass_macos_bigsur_icon_189933.0f30b4d8d396109e5c54.png",
+    "static/media/graphql.svg": "/React-Portfolio/static/media/graphql.09cf7be320be4dc145cdcff83f407a10.svg",
+    "static/media/react.svg": "/React-Portfolio/static/media/react.0f2dd326432f743247dc7c1389f9c032.svg",
+    "static/media/python-svgrepo-com.svg": "/React-Portfolio/static/media/python-svgrepo-com.62e8a4442709e711eb8c89041804c775.svg",
+    "static/media/javascript.svg": "/React-Portfolio/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.a9397c2d.css.map": "/React-Portfolio/static/css/main.a9397c2d.css.map",
+    "main.c955b593.js.map": "/React-Portfolio/static/js/main.c955b593.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d00ba091.css",
-    "static/js/main.2fb1c688.js"
+    "static/css/main.a9397c2d.css",
+    "static/js/main.c955b593.js"
   ]
 }
