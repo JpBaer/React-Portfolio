@@ -1,10 +1,202 @@
 .ContactPage{
-    height:100vh;
-    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image:
     linear-gradient(to bottom, var(--darkblue) ,#e4a2a286),
    url('../../assets/pexels-isaac-garcia-9567598.jpg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    color: #fff;
+    padding-top: 20px;
 
 }
+
+.contact_header{
+    width: 800px;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    }
+    
+    /* Changes color of text in contaxt box */
+    .contact_section span{
+        color: rgba(0, 0, 0, 0.596);
+    }
+    
+    
+    .contact_header h2 {
+        font-size:40px;
+    }
+    
+    
+    .contact_header p{
+        font-style: oblique;
+        
+    }
+
+    .contactContainer{
+        width: 80%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin-top:30px;
+    }
+    
+    
+    .contactContainer .contactInfo {
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .contactContainer .contactInfo .contactBox {
+        position: relative;
+        
+        padding: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+       
+        /* flex-direction: column;
+         */
+    }
+    
+    .contactBox h3{
+        margin-top: 14px;
+        margin-bottom: 5px;
+        
+    }
+    
+    
+    /* Styling the pixart icons */
+    .contactIcon{
+       width:50px;
+        height:50px;
+        background: var(--peach);
+        border-radius: 50%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:10px
+        
+    }
+    
+    /* positioning all text elements in contact info */
+    .contactBox .contactText{
+     display: flex;
+     padding-left: 20px;
+     flex-direction: column;
+     font-weight: 200px;
+     text-align: left;
+     margin-top: -10px;
+     
+    
+    }
+    
+    .contactText h3{
+        font-size: 25px;
+    }
+
+    .contactText p{
+        margin:0;
+    }
+    
+    /* Styling and positioning contact form */
+    .contactForm{
+        width:50%;
+        padding:30px;
+        background: #fff;
+        color: var(--darkblue);
+        border-radius: 5px;
+        /* border:1px solid #0000007a; */
+        box-shadow: 10px 10px 5px #00000033;
+        
+    }
+    
+    .contactForm h2{
+        font-size:20px;
+        color: var(--darkblue);
+        padding-bottom: 10px;
+        
+    
+    }
+    
+    /* Parent div for each input box */
+    .contactForm .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    
+    }
+    
+    /* Styles input boxs of contact form */
+    
+    .contactForm .inputBox input, textarea{
+    width:100%;
+    border:none;
+    outline:none;
+    resize: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top: 0px;
+    border-bottom: 1px solid #0000007a;
+    color: rgba(0, 0, 0, 0.686);
+    }
+    
+    /* styles default state of input box text */
+    .contactForm .inputBox span{
+        position: absolute;
+        left:0px;
+        padding:2px;
+        font-size: 14px;
+    
+    }
+    
+    /* Moves text inside input boxes above the boxes and changes their color */
+    /* focus changes it when clicked, valid changes it when there is text in the box */
+    
+    .contactForm .inputBox input:focus ~span,
+    .contactForm .inputBox input:valid ~span,
+    .contactForm .inputBox textarea:focus ~span,
+    .contactForm .inputBox textarea:valid ~span{
+        color: var(--peach);
+        font-size: 14px;
+        transform: translateY(-16px);
+    }
+    
+    /* Styles the Send button on contact form */
+    
+    .contactForm .inputBox input[type="submit"]
+    {   width: 80px;
+        background-color: var(--peach);
+        font-weight: 500;
+        border-radius: 10px;
+        color:#fff;
+        cursor: pointer;
+    
+    
+        }
+
+        @media screen and (max-width: 991px){
+            .contactContainer{
+                width:100%;
+                flex-direction:column;
+                margin-bottom:40px;
+            }
+            .contactContainer .contactInfo {
+                width:60%;
+                margin-bottom: 20px;
+                
+            }
+        
+            .contactForm {
+                    width:60%;}
+        }

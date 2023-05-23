@@ -36,7 +36,7 @@ const SkillsPage = () => {
   }
 
   return (
-    <div className = "SkillsPage">
+    <div className = "SkillsPage" id = "Skills">
       <Skill Logo = {0} Text = {Javascript.Text} Style = {Javascript.Style}/>
       <Skill Logo = {1} Text = {ReactLogo.Text} Style = {ReactLogo.Style} />
       <Skill Logo = {2} Text = {Node.Text} Style = {Node.Style}/>

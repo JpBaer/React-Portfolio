@@ -15,11 +15,11 @@ const HeroPage = () => {
   }
 
   return (
-    <div className = "Hero">
+    <div className = "Hero" id = "Hero">
         <div className='heroTextContainer'>
             <h1 className='heroTitle'>Jorgen Baertsch</h1>
             <h1 className='heroTitle'>Full Stack Software Engineer</h1>
-            <p className ='heroText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p className ='heroText'>When I get passionate about something I go all in, and when I have a question I always seek an answer.  As someone with a degree and work experience as an Aerospace Engineer and a self-taught Musician/Audio Engineer I have found web development to be the perfect blend of technical and creative.  I have a focus on Javascript and the MERN stack and a love for the backend but am always open to exploring new technologies. </p>
            
         </div>
         {/* <div className = "animation">

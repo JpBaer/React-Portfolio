@@ -11,11 +11,18 @@
     padding: 40px;
 }
 
-.projectTitle {
+.ProjectsPage hr{
+    width: 200px;
+    border: none;
     background: linear-gradient(90deg, var(--purple),var(--peach));
+    height: 2px;
+}
+
+.projectTitle {
+    background: linear-gradient(90deg, var(--peach),var(--purple));
     font-size: 40px;
     position: relative;
-    margin: 40px;
+    margin-bottom: 40px;
     /* top:-100%;
     left: 100%;
     min-width: 40%;
@@ -23,8 +30,8 @@
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 
