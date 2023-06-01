@@ -53,3 +53,14 @@ margin-top: -25px;
 .Python{
     background: linear-gradient(to bottom left, rgba(255, 242, 0, 0.2), rgba(255, 255, 255, 0));
 }
+
+@media only screen and (max-width: 600px) {
+    .Skill {
+        width: 325px;
+        height: 250px;
+    }
+    .skillText {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }

@@ -46,27 +46,27 @@ const ContactPage = () => {
       </div>
       {/* </Fade> */}
       <div className = "contactForm">
-        <form>
+        <form action="https://getform.io/f/fa6c36d3-1de9-4eee-aaaa-3f1394d7c0b9" method="POST">
 
           <h2>Send Message</h2>
           <div className = "inputBox">
-            <input type = "text" name = '' required = 'required'/>
+            <input type = "text" name = 'fullName' required = 'required'/>
             <span>Full Name:</span>
           </div>
 
           <div className = "inputBox">
-             <input type = "text" name = '' required = 'required'/> 
+             <input type = "text" name = 'email' required = 'required'/> 
             <span>Email:</span>
           </div>
 
           <div className = "inputBox">
-            <textarea required = 'required'></textarea>
+            <textarea required = 'required' name = 'message'></textarea>
             <span>Type your message here...</span>
           </div>
 
 
           <div className = "inputBox">
-            <input type = "submit" name = '' value ='Send'/>
+            <input type = "submit" name = 'submitButton' value ='Send'/>
 
           </div>
 

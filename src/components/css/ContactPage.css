@@ -198,5 +198,15 @@
             }
         
             .contactForm {
-                    width:60%;}
+                    width:80%;}
         }
+
+        @media only screen and (max-width: 600px) {
+            .contactText h3{
+                font-size: 22px;
+            }
+        
+            .contactText p{
+                font-size: 14px;
+            }
+          }

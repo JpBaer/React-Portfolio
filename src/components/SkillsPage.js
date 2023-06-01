@@ -7,32 +7,32 @@ import Fade from 'react-reveal/Fade'
 const SkillsPage = () => {
 
   const Javascript = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "JavaScript is my primary language of choice due to its versatility and widespread adoption. With JavaScript, I can build both front-end and back-end applications, thanks to frameworks like React and Node.js.",
     Style: "Javascript"
   }
 
   const ReactLogo = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "React is my preferred frontend framework due to its widespread adoption and efficient, intuitive component-based UI. Its capability to swiftly update and render data changes enables the development of streamlined applications",
     Style: "React"
   }
 
   const Node = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "Node.js with Express.js is my preferred server-side JavaScript runtime. I've used it to build Restful APIs, connect to databases, fetch data from external APIs, and process data for frontend applications.",
     Style: "Node"
   }
 
   const GraphQl = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "I use GraphQL for its intuitive query capabilities, enabling precise data retrieval from server-side databases. With GraphQL, the fetching process has become streamlined, reducing issues of over-fetching and under-fetching by clients.",
     Style: "GraphQl"
   }
 
   const MongoDb = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "I choose MongoDB for Node.js due to its seamless integration, scalability, and flexible data modeling. MongoDB's document-oriented approach suits dynamic Node.js applications, enabling easy storage, retrieval, and high performance.",
     Style: "MongoDb"
   }
 
   const Python = {
-    Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Text: "I have utilized Python for small machine learning models and data analysis. Python's easy-to-read syntax and vast collection of libraries, such as NumPy, Pandas, and scikit-learn, make it ideal for data analysis tasks.",
     Style: "Python"
   }
 
