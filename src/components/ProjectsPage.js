@@ -11,6 +11,13 @@ import JamSessionPic from '../assets/JamSession/JamSessionWebImage.png'
 const ProjectsPage = () => {
 
   const projects = [{
+    name: "Bloom: Carbon Impact Calculator",
+    description:"A MERN stack application that provides users with the ability to log their daily actions in order to see their carbon impact.  Users can see graphical breakdowns of their impact data, donate to multiple organizations to offset their impact, read the latest climate change news, and talk to our GPT chatbot.",
+    skills: "React, Javascript, Node.JS, MongoDB, Apollo GraphQL, OpenAI API, Air Quality API, News API, Chart.js",
+    photo: 3,
+    link: 'https://bloom1.herokuapp.com/'
+  },
+    {
     name: "JamSession: Music Sharing App",
     description: "A music sharing social media app that connects to the Spotify API and allows users to display their most listened to songs and artists as well as all of their playlists on a personal profile and public feed. I lead the backend development of the project including all integrations with Spotify's API, database model creation, and RESTful API routes.  I also managed the overall project, setting milestones and delegating tasks to a team of 4.",
     skills: "JavaScript, Express.JS, MySQL, MVC, Handlebars.JS, RESTful API, Spotify API",
@@ -49,7 +56,8 @@ const ProjectsPage = () => {
       <ProjectLeft name = {projects[1].name} description = {projects[1].description} skills = {projects[1].skills} photo = {projects[1].photo} link = {projects[1].link}/>
       <hr></hr>
       <ProjectRight name = {projects[2].name} description = {projects[2].description} skills = {projects[2].skills} photo = {projects[2].photo} link = {projects[2].link}/>
-    
+      <hr></hr>
+      <ProjectLeft name = {projects[3].name} description = {projects[3].description} skills = {projects[3].skills} photo = {projects[3].photo} link = {projects[3].link}/>
       {/* <ProjectLeft name = {projects[0].name} description = {projects[0].description} skills = {projects[0].skills}/> */}
       {/* <h1>Others Carousel?</h1> */}
       <Lottie animationData = {animation} style = {style}/> 
