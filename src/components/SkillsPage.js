@@ -18,17 +18,17 @@ const SkillsPage = () => {
 
   const Node = {
     Text: "Node.js with Express.js is my preferred server-side JavaScript runtime. I've used it to build Restful APIs, connect to databases, fetch data from external APIs, and process data for frontend applications.",
-    Style: "Node"
+    Style: "Node.JS"
   }
 
   const GraphQl = {
     Text: "I use GraphQL for its intuitive query capabilities, enabling precise data retrieval from server-side databases. With GraphQL, the fetching process has become streamlined, reducing issues of over-fetching and under-fetching by clients.",
-    Style: "GraphQl"
+    Style: "GraphQL"
   }
 
   const MongoDb = {
     Text: "I choose MongoDB for Node.js due to its seamless integration, scalability, and flexible data modeling. MongoDB's document-oriented approach suits dynamic Node.js applications, enabling easy storage, retrieval, and high performance.",
-    Style: "MongoDb"
+    Style: "MongoDB"
   }
 
   const Python = {

@@ -70,7 +70,34 @@
     font-weight: 500;
     /* outline: none; */
 }
+.projectLinks {
+    display: flex;
+    align-items: center;
+}
+.githubLogo{
+    width: 55px;
+    margin-left: 15px;
+    margin-right: 15px;
 
+    }
+
+.githubButton {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        background-image: url("../../assets/icons8-github-90.png");
+        width: 55px;
+        height: 55px; 
+        background-size: cover;
+        margin-left: 10px;
+      }
+    
+.githubButton:hover{
+    width: 60px;
+    height: 60px;
+}      
+
+       
 .ProjectButton:hover{
     background-color: var(--peach);
     color: var(--offwhite);

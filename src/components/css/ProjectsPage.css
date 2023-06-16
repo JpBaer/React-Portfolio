@@ -18,6 +18,10 @@
     height: 2px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .projectTitle {
     background: linear-gradient(90deg, var(--peach),var(--purple));
     font-size: 40px;

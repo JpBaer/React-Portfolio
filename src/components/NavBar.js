@@ -12,6 +12,7 @@ import resume from '../assets/resume.pdf'
 
 function NavBar() {
     const [scrolled, setScrolled] = useState(false);
+    const [toggled, setToggled] = useState(false);
     const [activeLink, setActiveLink] = useState('home');
 
     useEffect(()=> {
@@ -39,20 +40,25 @@ const onUpdateActiveLink = (value) => {
       console.log(activeLink)
 }
 
+const toggleNavbar = () => {
+  setToggled(!toggled);
+};
+
   const style = {
     height: 110,
     width: 110,
   }
 
   return (
-    <Navbar expand="lg" className = {scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" variant = "dark" className = {`${scrolled ? "scrolled" : "" } ${toggled ? "toggled": ""}`}>
+
       <Container>
         <Navbar.Brand href="#Hero">
           
          <Lottie animationData = {navAnimation} style = {style} className = {activeLink ==='home' ? 'active' : ''} onClick={()=> onUpdateActiveLink('home')}/> 
          
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick = {toggleNavbar}/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#Skills" className = {activeLink ==='skills' ? 'active navLink' : 'navLink'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
@@ -71,7 +77,7 @@ const onUpdateActiveLink = (value) => {
             </NavDropdown> */}
             
           </Nav>
-          <span className = "nav-text">
+          <span className = "nav-text" >
           <div className = "social-icon">
             <a href = 'https://github.com/JpBaer' target = "_blank"><img src={githubLogo} alt = 'github logo'/></a>
             <a href = 'https://www.linkedin.com/in/jorgen-baertsch-8673b2142/' target = "_blank"><img src={linkedinLogo} alt = 'linkedin logo'/></a>
