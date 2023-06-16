@@ -4,8 +4,8 @@ import JSLogo from '../assets/logos/javascript.svg'
 import ReactLogo from '../assets/logos/react.svg'
 import NodeLogo from '../assets/logos/node-js.png'
 import GraphQlLogo from '../assets/logos/graphql.svg'
-import MongoDbLogo from '../assets/logos/mongodb_compass_macos_bigsur_icon_189933.png'
-import pythonLogo from '../assets/logos/python-svgrepo-com.svg'
+import MongoDbLogo from '../assets/logos/Mongo.png'
+import pythonLogo from '../assets/logos/Python.png'
 
 const Skill = (props) => {
   const [isHovered, setIsHovered] = useState(false);
