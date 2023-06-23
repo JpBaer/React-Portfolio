@@ -12,7 +12,7 @@ const ProjectsPage = () => {
 
   const projects = [{
     name: "Bloom: Carbon Impact Calculator",
-    description:"A MERN stack application that provides users with the ability to log their daily actions in order to see their carbon impact.  Users can see graphical breakdowns of their impact data, donate to multiple organizations to offset their impact, read the latest climate change news, and talk to our GPT chatbot.",
+    description:"A MERN stack application that provides users with the ability to log their daily actions in order to see their carbon impact.  Users can see graphical breakdowns of their impact data, donate to multiple organizations to offset their impact, read the latest climate change news, and talk to our GPT chatbot. To view the website with data sign in with Email: ronswanson@gmail.com and Password: breakfast",
     skills: "React, Javascript, Node.JS, MongoDB, Apollo GraphQL, OpenAI API, Air Quality API, News API, Chart.js",
     photo: 3,
     link: 'https://bloom1.herokuapp.com/',

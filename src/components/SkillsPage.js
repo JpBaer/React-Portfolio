@@ -18,7 +18,7 @@ const SkillsPage = () => {
 
   const Node = {
     Text: "Node.js with Express.js is my preferred server-side JavaScript runtime. I've used it to build Restful APIs, connect to databases, fetch data from external APIs, and process data for frontend applications.",
-    Style: "Node.JS"
+    Style: "NodeJS"
   }
 
   const GraphQl = {

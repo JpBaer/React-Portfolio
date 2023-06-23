@@ -70,10 +70,8 @@
     font-weight: 500;
     /* outline: none; */
 }
-.projectLinks {
-    display: flex;
-    align-items: center;
-}
+
+
 .githubLogo{
     width: 55px;
     margin-left: 15px;
