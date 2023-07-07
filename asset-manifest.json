@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.46e50476.css",
-    "main.js": "/React-Portfolio/static/js/main.ae888c55.js",
+    "main.js": "/React-Portfolio/static/js/main.a5445a7b.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/image.png": "/React-Portfolio/static/media/image.406f675dcfbfd3e68ee3.png",
     "static/media/PokedexWebImage.png": "/React-Portfolio/static/media/PokedexWebImage.ee56c0b76530a58b143d.png",
@@ -11,18 +11,18 @@
     "static/media/JamSessionWebImage.png": "/React-Portfolio/static/media/JamSessionWebImage.b2d7a4e4a3eaac9f1d85.png",
     "static/media/Mongo.png": "/React-Portfolio/static/media/Mongo.9e73e6e44504ef2a0229.png",
     "static/media/Python.png": "/React-Portfolio/static/media/Python.880347d3ed010125d518.png",
-    "static/media/Jorgen-Baertsch-FullStackResume-6-17.pdf": "/React-Portfolio/static/media/Jorgen-Baertsch-FullStackResume-6-17.081575ea3faef999edf5.pdf",
+    "static/media/Jorgen_Baertsch_FullStackDeveloper.pdf": "/React-Portfolio/static/media/Jorgen_Baertsch_FullStackDeveloper.e005b3f2266a63be8920.pdf",
     "static/media/node-js.png": "/React-Portfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/graphql.svg": "/React-Portfolio/static/media/graphql.09cf7be320be4dc145cdcff83f407a10.svg",
     "static/media/react.svg": "/React-Portfolio/static/media/react.0f2dd326432f743247dc7c1389f9c032.svg",
     "static/media/javascript.svg": "/React-Portfolio/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.46e50476.css.map": "/React-Portfolio/static/css/main.46e50476.css.map",
-    "main.ae888c55.js.map": "/React-Portfolio/static/js/main.ae888c55.js.map",
+    "main.a5445a7b.js.map": "/React-Portfolio/static/js/main.a5445a7b.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46e50476.css",
-    "static/js/main.ae888c55.js"
+    "static/js/main.a5445a7b.js"
   ]
 }
