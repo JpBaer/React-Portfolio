@@ -20,7 +20,7 @@ const ProjectsPage = () => {
   },
     {
     name: "JamSession: Music Sharing App",
-    description: "A music sharing social media app that connects to the Spotify API and allows users to display their most listened to songs and artists as well as all of their playlists on a personal profile and public feed. I lead the backend development of the project including all integrations with Spotify's API, database model creation, and RESTful API routes.  I also managed the overall project, setting milestones and delegating tasks to a team of 4.",
+    description: "A music sharing social media app that connects to the Spotify API and allows users to display their most listened to songs and artists as well as all of their playlists on a personal profile and public feed. I lead the backend development of the project including all integrations with Spotify's API, database model creation, and RESTful API routes.  I also managed the overall project, setting milestones and delegating tasks to a team of 4. Currently I am working on a complete front-end redesign for a more modern UI and additional features.",
     skills: "JavaScript, Express.JS, MySQL, MVC, Handlebars.JS, RESTful API, Spotify API",
     photo: 0,
     link: 'https://calm-tor-47120.herokuapp.com/',

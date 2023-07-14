@@ -2,21 +2,32 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
-import HeroPage from './components/HeroPage';
-import SkillsPage from './components/SkillsPage';
-import ProjectsPage from './components/ProjectsPage';
-import ContactPage from './components/ContactPage';
+import HomePage from './components/HomePage';
+import Bloom from './components/Bloom';
+import JamSession from './components/JamSession';
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
     {/* <IntroPage/> */}
-     <NavBar/> 
-     <HeroPage/> 
-     <SkillsPage/>
-     <ProjectsPage/> 
-     <ContactPage/>
+
+    {/* <Router>
+        <NavBar />
+        <Routes>
+          
+          <Route path="/" element={<HomePage />} />
+          <Route path="/bloom" element={<Bloom />} />
+          <Route path="/jamsession" element={<JamSession />} />
+        </Routes>
+      </Router> */}
+
+      <NavBar/>
+      <HomePage/>
+   
     </div>
   );
 }

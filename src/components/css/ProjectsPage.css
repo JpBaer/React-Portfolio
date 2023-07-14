@@ -16,6 +16,7 @@
     border: none;
     background: linear-gradient(90deg, var(--purple),var(--peach));
     height: 2px;
+    align-self: center;
 }
 
 a{
@@ -38,12 +39,47 @@ a{
     margin: 0; */
 }
 
-
-
-.ProjectsPage p{
-    color: var(--darkblue);
-    background-color: --var(--peach);
+.projectSubTitle {
+    background: linear-gradient(90deg, var(--peach),var(--purple));
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 40px;
+    /* top:-100%;
+    left: 100%;
+    min-width: 40%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 0;
+    margin: 0; */
 }
 
 
 
+.ProjectsPage p{
+    color: var(--darkblue);
+   
+}
+
+
+
+.projectBreakdownHeader{
+    height: 120px;
+    background-color: var(--darkblue);
+}
+
+.projectBreakdown{
+    padding-top: 55px;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+.projectBreakdown hr{
+    width: 200px;
+    border: none;
+    background: linear-gradient(90deg, var(--purple),var(--peach));
+    height: 2px;
+}

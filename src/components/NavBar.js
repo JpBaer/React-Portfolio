@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './css/NavBar.css'
 import githubLogo from '../assets/icons8-github-90.png'
 import linkedinLogo from '../assets/icons8-linkedin-100.png'
-import resume from '../assets/Jorgen_Baertsch_FullStackDeveloper.pdf'
+import resume from '../assets/Jorgen_Baertsch_SoftwareEngineerResume.pdf'
 
 function NavBar() {
     const [scrolled, setScrolled] = useState(false);

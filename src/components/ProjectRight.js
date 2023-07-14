@@ -24,6 +24,7 @@ const ProjectRight = (props) => {
         <a href = {github} target = "_blank">  <button className='githubButton'>
                   <span className='githubLogo' />
                 </button></a>
+        {/* <a href = {link} target = "_blank"><button className = 'ProjectButton'>Learn</button></a> */}
                 {/* </div> */}
         </div>
         </Fade>
